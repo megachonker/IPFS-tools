@@ -1,0 +1,1 @@
+find  /tmp  -readable -type f 2>/dev/null  |parallel 'ipfs dht findprovs -n 1 $(ipfs add --only-hash {} -q) > /dev/null && echo "{}"'
