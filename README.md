@@ -1,4 +1,8 @@
+## présentation
 
+l'idée est de voir si on peut reverse lookup des fichier par leur contenue est donc avoir la liste des gent l'ebergeant 
+
+## commande
 cherche si un fichier existe sur ipfs le 2em arg est pour demander cb
 
 ```truc(){ipfs dht findprovs -n ${2:-1} $(ipfs add --only-hash $1 -q)}```
